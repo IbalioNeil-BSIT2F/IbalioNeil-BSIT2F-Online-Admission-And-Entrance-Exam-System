@@ -1,0 +1,119 @@
+@import url('admin.css');
+
+/* General Layout */
+.content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+/* Container Layout */
+.exam-container {
+  display: block;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Form Styles */
+.exam-form {
+  flex: 1 1 300px;
+  min-width: 300px;
+  background-color: #f9fafb;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.exam-form h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #111827;
+}
+
+.exam-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.exam-form .form-control {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 5px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.exam-form .submit-btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.exam-form .submit-btn:hover {
+  background-color: #1e40af;
+}
+
+.exam-form .msg {
+  margin-top: 15px;
+  color: #10b981;
+  font-weight: 500;
+}
+
+/* Table Styles */
+.exam-table {
+  flex: 1 1 100%;
+}
+
+.exam-table h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #1f2937;
+}
+
+.exam-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.exam-table th, .exam-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.exam-table th {
+  background-color: #f3f4f6;
+  color: #374151;
+  font-weight: 600;
+}
+
+.exam-table tr:hover {
+  background-color: #f1f5f9;
+}
+
+.exam-table a {
+  color: #2563eb;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.exam-table a:hover {
+  text-decoration: underline;
+}
+

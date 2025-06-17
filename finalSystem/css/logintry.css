@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #05161a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    max-height: 550px;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero .left {
+    flex: 1;
+    background: #072e33;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .left h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero .left p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.hero .right {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .right h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 3rem;
+}
+
+.hero .right p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    height: 3rem;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 1.5rem;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.msg {
+    color: red;
+    margin-bottom: 10px;
+}
+
